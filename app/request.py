@@ -51,3 +51,29 @@ def process_results(article_list):
         article_results.append(article_object)
 
     return article_results
+
+def get_article(id):
+    
+    get_articles_url = base_url.format(id,api_key)
+
+    with urllib.request.urlopen(get_article_details_url) as url:
+       article_details_data = url.read()
+       article_details_response = json.loads(article_details_data)
+
+        article_results = None
+        if article_details_response:
+            id = article_details_response.get('id')
+            name = article_details_response.get('name')
+            author = article_details_response.get('author')
+            title = article_details_response.get('title')
+            description = article_details_response.get('description')
+            content = article_details_response.get('content')
+
+            article_object = Article(id,name,author,title,description,content)
+
+
+
+    return article_object
+
+
+            
