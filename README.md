@@ -8,7 +8,7 @@ Link to live site : https://news-article1.herokuapp.com/
 Check out my repository :eight_spoked_asterisk: https://github.com/Bryson69
 
 ## Description
- An application that provides you with the latest news all around the world
+ An application that provides you with the latest news all around the world.It consists of 
 
 
 ## Setup/Installation Requirements
