@@ -7,7 +7,12 @@ bootstrap = Bootstrap()
 
 def create_app(config_name):
     app = Flask(__name__)
+#app = Flask(__name__,instance_relative_config = True)
 
+
+#We pass in instance_relative_config which allow us to connect to the instance/folder when the app instance is created.
+# app.config.from_pyfile('config.py') connects to the config.py file and all its contents are appended to the app.config
+#Setting up configuration
     # create the app configurations
     app.config.from_object(config_options[config_name])
 
