@@ -1,15 +1,33 @@
-{% macro displayMovieList(movie_list) %}
+{% macro displaySourceList(source_list) %}
 
-    {% for movie in movie_list %}
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 movie-card">
-            <img src="{{  }}" alt="{{  }} poster" class="img-responsive">
-            <li class="text-center">
-                <a href="/movie/{{article.id}}">
-                    {{ article.title|truncate(10)}}</a>
-            </li>
-        </div>
+{% for source_row in source_list |batch(4)%}
+<div class="row">
 
-    {% endfor %}
 
+  {% for sources in source_row %}
+  <div class="col-md-3">
+
+    <div class="panel panel-default">
+      <div class="panel-heading"  style="background-color: #2D2D2A; border-radius: 15px;">
+        <h2 style=" color: snow; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ">
+          {{ sources.name}}
+        </a>
+        </h2>     
+      </div>
+      <div class="panel-body" style="background-color: #38423b;border-radius: 15px;">
+        <p class="white-text" id="pan" style="font-size: 15px; font-family: 'Courier New', Courier, monospace;">
+          {{ sources.description |truncate(100)}}
+       </p>
+       <a href="/sources/{{sources.id}}" type="button" style="color: snow;" class="btn btn-gplus">View page</a>
+       <hr class="my-3">
+      </div>
+
+
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+{% endfor %}
 
 {% endmacro %}
