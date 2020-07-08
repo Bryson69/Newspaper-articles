@@ -3,7 +3,7 @@
 ### Author:
 Bryson Mundia 😎 
 
-Link to live site :
+Link to live site : https://news-article1.herokuapp.com/
 
 Check out my repository :eight_spoked_asterisk: https://github.com/Bryson69
 
@@ -49,7 +49,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 
 ### License
-*MIT License
+MIT License
 
 Copyright (c) [2020] [Bryson Mundia]
 
