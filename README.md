@@ -53,6 +53,7 @@ To fix a bug or enhance an existing module, follow these steps:
 * HTML 5
 
 ### License
+
 MIT License
 
 Copyright (c) [2020] [Bryson Mundia]
