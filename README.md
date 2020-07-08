@@ -1,4 +1,4 @@
-# NEWS-ARTICLES
+# NEWS-ARTICLES.
 
 ### Author:
 Bryson Mundia 😎 
@@ -30,8 +30,8 @@ To run the application in your terminal:
 ## Behaviour Driven Development (BDD)
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display various news sources | Click the **View Articles** button | Redirects to a page with a list of articles from the source |
-| Display the articles for the news source selected | Click **Read More**| Redirects to the news source's site to read the earticle |
+| Display various news sources | Click the **View** button | Redirects to a page with a list of articles from the source |
+| Display the articles for the news source selected | Click **Read More**| Redirects to the news source's site to read the article |
 
 
 ## Known Bugs
@@ -51,7 +51,6 @@ To fix a bug or enhance an existing module, follow these steps:
 * Python3.6
 * Boostrap
 * HTML 5
-
 
 ### License
 MIT License
