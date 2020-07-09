@@ -5,7 +5,7 @@ Bryson Mundia 😎
 
 Link to live site : https://news-article1.herokuapp.com/
 
-Check out my repository :eight_spoked_asterisk: https://github.com/Bryson69
+Check out my repository :hourglass_flowing_sand: https://github.com/Bryson69
 
 ## Description
  An application that provides you with the latest news all around the world. 
