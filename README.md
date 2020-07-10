@@ -31,7 +31,7 @@ To run the application in your terminal:
 ## Behaviour Driven Development (BDD)
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display various news sources | Click the **View Page** button | Redirects to a page with a list of articles from the source |
+| Display various news sources | Click the **View Page** button | Redirects you to a page with a list of articles from the source |
 | Display the articles for the news source which you have selected | Click **Read More**| Redirects to the news source's site to read the article |
 
 
