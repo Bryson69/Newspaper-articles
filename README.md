@@ -5,7 +5,7 @@ Bryson Mundia 😎
 
 Link to live site : https://news-article1.herokuapp.com/
 
-Check out my repository :hourglass_flowing_sand: https://github.com/Bryson69
+Check out my repository : https://github.com/Bryson69
 
 ## Description
  An application that provides you with the latest news all around the world. 
@@ -31,7 +31,7 @@ To run the application in your terminal:
 ## Behaviour Driven Development (BDD)
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display various news sources | Click the **View** button | Redirects to a page with a list of articles from the source |
+| Display various news sources | Click the **View Page** button | Redirects to a page with a list of articles from the source |
 | Display the articles for the news source which you have selected | Click **Read More**| Redirects to the news source's site to read the article |
 
 
